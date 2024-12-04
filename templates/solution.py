@@ -5,6 +5,11 @@ Run on Python 3.8.3.
 from collections import defaultdict, deque
 import re
 
+# Coordinate directions for moving up, right, down, left.
+D_4 = [(1, 0), (0, 1), (0, -1), (-1, 0)]
+# Coordinate directions including corners.
+D_8 = [(1, 0), (0, 1), (0, -1), (-1, 0), (1, 1), (-1, 1), (-1, -1), (1, -1)]
+ 
 INPUT_FILE = "input.txt"
 
 def star_1():
