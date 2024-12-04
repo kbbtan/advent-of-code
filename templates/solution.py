@@ -1,6 +1,6 @@
 """
 Contains solutions for Day N stars.
-Run on Python 3.8.3.
+Run on Python 3.12.8.
 """
 from collections import defaultdict, deque
 import re
