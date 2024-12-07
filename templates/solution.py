@@ -17,7 +17,7 @@ def star_1():
     """
     with open(INPUT_FILE) as file:
         lines = file.read().split("\n")
-        numbers = list(map(lambda x: list(map(lambda y: int(y), re.findall(r"\d", x))), lines))
+        numbers = list(map(lambda x: list(map(lambda y: int(y), re.findall(r"\d+", x))), lines))
     
 def star_2():
     """ Solution for Star 2.
